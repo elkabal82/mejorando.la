@@ -104,5 +104,5 @@ else if (opcionUsuario == spock)
 }
 else
 {
-	document.write("NO ES UNA OPCION CORRECTA INTENTALO NUEVAMENTE :)");
+	document.write("NO ES UNA OPCION CORRECTA, INTENTALO NUEVAMENTE :)");
 }

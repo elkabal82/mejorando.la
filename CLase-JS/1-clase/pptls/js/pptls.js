@@ -27,3 +27,82 @@ document.write("Javascript elegio " + matriz[opcionMaquina] + "<br />");
 
 //-------------------------------------------------------
 
+if (opcionUsuario == piedra )
+{
+	if (opcionMaquina == piedra)
+	{
+		document.write("EMPATE");
+	}
+	else if (opcionMaquina == lagarto || opcionMaquina == tijeras)
+	{
+		document.write("GANASTE");
+	}
+	else if (opcionMaquina == papel || opcionMaquina == spock)
+	{
+		document.write("PERDISTE");
+	}
+}
+else if (opcionUsuario == papel)
+{
+	if(opcionMaquina == papel)
+	{
+		document.write("EMPATE");
+	}
+	else if (opcionMaquina == piedra || opcionMaquina == spock) 
+	{
+		document.write("GANASTE");
+	}
+	else if (opcionMaquina == tijeras || opcionMaquina == lagarto)
+	{
+		document.write("PERDISTE");
+	}
+}
+else if (opcionUsuario == tijeras)
+{
+	if(opcionMaquina == tijeras)
+	{
+		document.write("EMPATE");
+	}
+	else if (opcionMaquina == papel || opcionMaquina == lagarto) 
+	{
+		document.write("GANASTE");
+	}
+	else if (opcionMaquina == spock || opcionMaquina == piedra)
+	{
+		document.write("PERDISTE");
+	}
+}
+else if (opcionUsuario == lagarto)
+{
+	if(opcionMaquina == lagarto)
+	{
+		document.write("EMPATE");
+	}
+	else if (opcionMaquina == papel || opcionMaquina == spock) 
+	{
+		document.write("GANASTE");
+	}
+	else if (opcionMaquina == tijeras || opcionMaquina == piedra)
+	{
+		document.write("PERDISTE");
+	}
+}
+else if (opcionUsuario == spock)
+{
+	if(opcionMaquina == spock)
+	{
+		document.write("EMPATE");
+	}
+	else if (opcionMaquina == piedra || opcionMaquina == tijeras) 
+	{
+		document.write("GANASTE");
+	}
+	else if (opcionMaquina == papel || opcionMaquina == lagarto)
+	{
+		document.write("PERDISTE");
+	}
+}
+else
+{
+	document.write("NO ES UNA OPCION CORRECTA INTENTALO NUEVAMENTE :)");
+}

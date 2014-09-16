@@ -3,81 +3,85 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Portafolio</title>
+	<link rel="stylesheet" href="../static/css/estilos.css">
+	<link rel="stylesheet" href="../static/css/normalize.css">
 </head>
+
 <body>
-	<header>
-		<nav>
-			<ul>
-				<li>
-					<a href="#yo">Yo</a>
+	<header id="yo" class="Header">
+		<nav class="MainMenu">
+			<ul class="MainMenu-list">
+				<li class="MainMenu-item" >
+					<a class="MainMenu-link" href="#yo">Yo</a>
 				</li>
-				<li>
-					<a href="#perfil">Perfil</a>
+				<li class="MainMenu-item">
+					<a class="MainMenu-link" href="#perfil">Perfil</a>
 				</li>
-				<li>
-					<a href="#trabajo">Trabajo</a>
+				<li class="MainMenu-item">
+					<a class="MainMenu-link" href="#trabajo">Trabajo</a>
 				</li>
-				<li>
-					<a href="#contacto">Contacto</a>
+				<li class="MainMenu-item">
+					<a class="MainMenu-link" href="#contacto">Contacto</a>
 				</li>
 			</ul>
 		</nav>
-		<figure>
-			<img src="avatar.jpg" alt="mi avatar">
-			<figcaption> <a href="http://twitter.com/elkabal82" target = "_black">@elkabal82</a> 
+		<figure class="Header-imageContainer">
+			<img src="avatar.jpg" alt="mi avatar" class="Header-image">
+			<figcaption class="Header-imageDescription"> 
+				<a class="Header-link" href="http://twitter.com/elkabal82" target = "_black">@elkabal82</a> 
 			</figcaption>
-			<p>Edgardo Torres Vancen Bocuh</p>
+			<p class="Header-name">Edgardo Torres Vancen Bocuh</p>
 		</figure>
 	</header>
-	<section>
-		<h2>Perfil</h2>
-		<p>
+	<section id="perfil" class="Profile">
+		<h2 class="Profile-title">Perfil</h2>
+		<p class="Profile-description">
 			Hambriento por aprender algo nuevo cada día
 		</p>
-		<a href="http://facebook.com/?"target = "_black">Facebook</a>
-		<a href="http://github.com/elkabal82"target = "_black">Github</a>
+		<a Profile-link href="http://facebook.com/?"target = "_black">Facebook</a>
+		<a Profile-link href="http://github.com/elkabal82"target = "_black">Github</a>
 	</section>
-	<section>
-		<h2>Trabajo</h2>
-		<article>
-			<figure>
-				<img src="mejorandola.jpg" alt="Descripcion de la imagen">
-				<figcaption>Website de mejorando.la</figcaption>
+	<section id="trabajo" class="Work">
+		<h2 class="Work-title">Trabajo</h2>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="mejorandola.jpg" alt="Descripcion de la imagen">
+				<figcaption class="Work-description">Website de mejorando.la</figcaption>
 			</figure>
 		</article>
-		<article>
-			<figure>
-				<img src="mejorandola.jpg" alt="Descripcion de la imagen">
-				<figcaption>Website de mejorando.la</figcaption>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="mejorandola.jpg" alt="Descripcion de la imagen">
+				<figcaption class="Work-description">Website de mejorando.la</figcaption>
 			</figure>
 		</article>
-		<article>
-			<figure>
-				<img src="mejorandola.jpg" alt="Descripcion de la imagen">
-				<figcaption>Website de mejorando.la</figcaption>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="mejorandola.jpg" alt="Descripcion de la imagen">
+				<figcaption class="Work-description">Website de mejorando.la</figcaption>
 			</figure>
 		</article>
-		<article>
-			<figure>
-				<img src="mejorandola.jpg" alt="Descripcion de la imagen">
-				<figcaption>Website de mejorando.la</figcaption>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="mejorandola.jpg" alt="Descripcion de la imagen">
+				<figcaption class="Work-description">Website de mejorando.la</figcaption>
 			</figure>
 		</article>
-		<article>
-			<figure>
-				<img src="mejorandola.jpg" alt="Descripcion de la imagen">
-				<figcaption>Website de mejorando.la</figcaption>
+		<article class="Work-item">
+			<figure class="Work-imageContainer">
+				<img class="Work-image" src="mejorandola.jpg" alt="Descripcion de la imagen">
+				<figcaption class="Work-description">Website de mejorando.la</figcaption>
 			</figure>
 		</article>
 	</section>
-	<footer>
-		<h3>Contacto</h3>
-		<p>Tienes una sugerencia o quieres trabajar conmigo, contactame con elformulario</p>
-		<form action="">
-			<input type="text" placeholder="Nombre"/>
-			<input type="email" placeholder = "Email"/>
-			<textarea name="" id="" cols="30" rows="3" placeholder = "Motivo"></textarea>
-			<button type="submit">Contactarme</button>
+	<footer id="contacto" class="Footer">
+		<h3 class="Footer-title">Contacto</h3>
+		<p class="Footer-description">Tienes una sugerencia o quieres trabajar conmigo, contactame con elformulario</p>
+		<form action="" class="Footer-form">
+			<input class="Footer-formInput" type="text" placeholder="Nombre"/>
+			<input class="Footer-formInput" type="email" placeholder = "Email"/>
+			<textarea class="Footer-textarea" name="" id="" cols="30" rows="3" placeholder = "Motivo"></textarea>
+			<button type="submit" class="Footer-botton">Contactarme</button>
 		</form>
 	</footer>
 

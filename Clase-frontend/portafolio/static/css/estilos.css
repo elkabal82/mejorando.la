@@ -1,5 +1,9 @@
 .u-title{
 	color:#00CCFF;
+	border-bottom: 2px dashed #00CCFF;
+	font-weight: normal;
+	text-align: center;
+	padding-bottom:.5em;
 }
 .MainMenu{
 	background:#1E1E1E; /* da color al fondo*/
@@ -67,4 +71,17 @@
 	font-size: 1.5em;
 	font-weight: 300;
 	margin: 0;
+}
+
+.Profile{
+	text-align: center;
+}
+
+.Profile-link{
+	background:orange;
+	color:white;
+	text-decoration: none;
+	padding:.5em 1em;
+	border-radius: 2em;
+	margin-right: .5em;
 }

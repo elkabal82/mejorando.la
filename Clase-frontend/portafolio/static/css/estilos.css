@@ -1,0 +1,26 @@
+.MainMenu{
+	background:#1E1E1E; /* da color al fondo*/
+	text-align:center; /* centra el texto del nav*/
+	height:3.75em; /* le da el ancho*/
+	position:fixed;/* hace qeu se quede fijo en el navegador*/
+	left:0;/* le da el ancho total*/
+	right:0;/* le da el ancho total*/
+	top:0;/*queda hasta arriba*/
+}
+
+.MainMenu-list{
+	margin:0; /*quitamos el margen para que se centre el texto*/
+	padding:0;/*quitamos el padding para que se centre el texto*/
+}
+
+.MainMenu-item{
+	display: inline-block; /* hace qeu los textos del nav estan a un costado del otro*/
+}
+
+.MainMenu-link{
+	color:#00DBFF; /* le da color al texto*/
+	text-decoration:none; /* le quita el subrayado a los linls*/
+	/*esto funciona solo cuando es solo una linea y el tiene que ser = al ancho del padre*/
+	line-height:3.75em; /* centra los links respecto al .MainMenu*/
+	margin-right:1.5em; 
+}

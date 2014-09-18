@@ -1,3 +1,6 @@
+.u-title{
+	color:#00CCFF;
+}
 .MainMenu{
 	background:#1E1E1E; /* da color al fondo*/
 	text-align:center; /* centra el texto del nav*/
@@ -29,17 +32,39 @@
 	margin-top:3.75em;/*el tamaño del margen para que no se empalme*/
 	background-image:url('../images/portada.jpg');/*ruta de la imagen de fondo*/
 	background-repeat: no-repeat;/*para que no se repita la imagen*/
-	background-position: center;;
-	background-size: cover;
-	height:350px;
-	text-align:center;
-}
-
-.Header-imageContainer{
-
+	background-position: center;/*centra el fondo*/
+	background-size: cover;/*toma el largo del navegador*/ 
+	height:350px; /*altura del fondo*/
+	text-align:center;/*alineamos el texto*/
+	padding:1.2em 0;
 }
 
 .Header-image{
-	width: 100px;
+	border:5px solid white;/*es para el borde de la imagen*/
+	border-radius:50%;/*hace redonda la imagen*/
+	height:200px;/*para el alto de la imagen*/
+	width: 200px;/*para el ancho de la imagen*/
 	
+}
+
+.Header-imageContainer{
+	margin: 0;
+
+}
+
+.Header-name,
+.Header-link{
+	color: white;
+}
+
+.Header-link{
+	font-size:2.2em;
+	font-weight: bold;
+	text-decoration:none;
+}
+
+.Header-name{
+	font-size: 1.5em;
+	font-weight: 300;
+	margin: 0;
 }

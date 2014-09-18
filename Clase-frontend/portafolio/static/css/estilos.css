@@ -24,12 +24,22 @@
 	line-height:3.75em; /* centra los links respecto al .MainMenu*/
 	margin-right:1.5em; 
 }
+
 .Header{
-	margin-top:3.75em;
-	background-image:url('../image/portada.jpg');
-	background-repeat: no-repeat;
+	margin-top:3.75em;/*el tamaño del margen para que no se empalme*/
+	background-image:url('../images/portada.jpg');/*ruta de la imagen de fondo*/
+	background-repeat: no-repeat;/*para que no se repita la imagen*/
 	background-position: center;;
 	background-size: cover;
 	height:350px;
 	text-align:center;
+}
+
+.Header-imageContainer{
+
+}
+
+.Header-image{
+	width: 100px;
+	
 }

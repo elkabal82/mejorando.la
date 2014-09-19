@@ -85,3 +85,10 @@
 	border-radius: 2em;
 	margin-right: .5em;
 }
+.Work{
+	margin-top:2em;
+	text-align: center;
+}
+.Work-item{
+	display:inline-block;
+}

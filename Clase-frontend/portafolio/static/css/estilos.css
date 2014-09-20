@@ -1,9 +1,16 @@
+/*NOTA: el footer-left usamos un div para por usar el text-align:center en el footer*/
+
 .u-title{
 	color:#00CCFF;
-	border-bottom: 2px dashed #00CCFF;
+	border-bottom: 3px dashed #00CCFF;/*dasher es para un borde punteado
+	*/
 	font-weight: normal;
 	text-align: center;
 	padding-bottom:.5em;
+}
+.u-container{
+	max-width:800px;
+	margin:0 auto;
 }
 .MainMenu{
 	background:#1E1E1E; /* da color al fondo*/
@@ -121,9 +128,9 @@
 
 .Footer-left{
 	display:inline-block;
-	width:32em;
+	max-width:32em;/*con width no se ato ajusta al tamño pero con mas- si se auto ajusta*/
 	text-align:center;
-	vertical-align: top;
+	vertical-align: top;/*lo coloca enel parte superior*/
 	margin-right: 5em;
 }
 
@@ -143,7 +150,7 @@
 }
 
 .Footer-textarea{
-	resize: none;
+	resize: none;/*es para quitar el piquito del text area*/
 }
 
 .Footer-button{

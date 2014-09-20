@@ -1,0 +1,16 @@
+.Header{
+	text-align: center;
+}
+.Header-title{
+	display:inline-block;
+	
+}
+
+.Header-imageContainer{
+	display:inline-block;
+	
+}
+
+.Header-image{
+	/*width:2em;*/
+}

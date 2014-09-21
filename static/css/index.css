@@ -8,9 +8,14 @@
 
 .Header-imageContainer{
 	display:inline-block;
+	margin: 0;
 	
 }
 
 .Header-image{
-	/*width:2em;*/
+	width:2em;
+}
+
+.Header-subTitle{
+	margin:0;
 }

@@ -1,3 +1,8 @@
+/*el HEADER se ajusto con float y position 
+NOTA: absolute busca el 0,0 relativo
+NOTA2:Se le pone display:block a las >a> para que tenga margin y pading*/
+/*el NAV se ajusto con diplay:inline.block y la etiqueta 
+publicar se ajusto en el position*/
 a
 {
 	color:#22BCE0;
@@ -10,18 +15,63 @@ body
 	font-size:16px;
 }
 
+footer 
+{
+	color:rgba(255,255,255, .7);
+	background: #22BCE0;
+	text-align: center;
+	padding:1em;
+}
+
+footer p:first-child
+{
+	margin-bottom:0;
+}
+
+footer p:last-child
+{
+	margin-top:0;
+}
+
+footer p:last-child:after
+{
+	content:" -";
+}
+
+footer p:last-child:before
+{
+	content:"- ";
+}
 header
 {
 	background:#343854;
 	color: white;
+	overflow: hidden;
+	padding: .5em;
+	position:relative;
+}
+
+header figure
+{
+	float: left;
+	margin:0;
 }
 
 header h1
 {
-	font-size: 18px;
+	font-size: 1.2em;
 	font-weight:normal;
+	margin: .2em 70px 0 0;
+	/*text-align: center;*/
 }
 
+header #avatar
+{
+	margin: .5em .5em 0 0 ;
+	right:0;
+	position:absolute;	
+	top:0;
+}
 header #avatar img
 {
 	border-radius:50%;
@@ -30,5 +80,55 @@ header #avatar img
 
 header #logo img
 {
+	border-right: 1px solid white;
+	margin-right: .5em;
+	padding-right: .5em;
 	width: 52px;
+}
+
+nav
+{
+	background:#80BCA3;
+	padding: 0 .5em;
+	position: relative;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+
+nav ul #publicar_nav
+{
+position:absolute;
+top:-.3em;
+right:0;	
+}
+
+nav ul #publicar_nav a 
+{
+background:#22BCE0;
+border-radius: 5px;
+box-shadow:rgba(0,0,0,.5) 5px 5px 20px;
+font-style: italic;
+padding:.8em .5em;	
+text-decoration: none;
+text-shadow:rgba(0,0,0,.5) 2px 2px 5px;
+/*rgba() es e color y el ultimo valor es la trasparencia
+el primer valor desplazamiento en X 2do valor 
+desplazamiento en Y y 3ro la transparencia*/
+} 
+
+nav ul li
+{
+display: inline-block;
+margin:0 1em 0 0;
+}
+
+nav ul li a 
+{
+	color:white;
+	display:block;
+	padding:.5em 0;
 }

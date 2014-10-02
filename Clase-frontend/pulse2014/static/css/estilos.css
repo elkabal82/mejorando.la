@@ -1,5 +1,6 @@
 /*el HEADER se ajusto con float y position 
-NOTA: absolute busca el 0,0 relativo
+NOTA: absolute busca el 0,0 relativo. el que quieres mover 
+tiene que tener absolute.
 NOTA2:Se le pone display:block a las >a> para que tenga margin y pading*/
 /*el NAV se ajusto con diplay:inline.block y la etiqueta 
 publicar se ajusto en el position*/
@@ -143,7 +144,10 @@ nav ul li a
 {
 	background: white;
 	border-bottom:3px solid #22BCE0;
-	overflow: hidden;
+	margin-bottom: 3em;
+	min-height: 128px;
+	/*overflow: hidden;*/
+	position:relative;
 }
 
 #contenido .item .autor_item
@@ -153,13 +157,22 @@ nav ul li a
 
 #contenido .item .datos_item
 {
+	margin: 1em 1em 0 0;
 	text-align: right;
 }
 
+#contenido .item .datos_item .fecha_item
+{
+	color:#AAA;
+}
 #contenido .item .datos_item .tag_item
 {
 	background: #F4502A;
+	border-radius: .5em;
 	color:white;
+	float: left;
+	padding:.2em .5em;
+	display: inline-block;
 	text-decoration: none;
 }
 #contenido .item .imagen_item
@@ -183,4 +196,22 @@ nav ul li a
 {
 	color:#444;
 	text-decoration: none;
+}
+
+#contenido .item .votacion
+{
+	background:white;
+	border-radius: 0 0 .5em .5em;
+	position: absolute;
+	top:100%;
+	left:5%;
+	width:90%;
+	margin-top: 3px;
+	padding:.2em .5em;
+}
+
+#contenido .item .votacion .comentarios_item,
+#contenido .item .votacion .guardar_item
+{
+	float:right;
 }

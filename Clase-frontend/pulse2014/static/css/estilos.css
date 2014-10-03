@@ -35,15 +35,23 @@ publicar se ajusto en el position*/
 }
 .icon-lapiz:before {
 	content: "\e601";
+	margin-right:.8em;
 }
 .icon-estrella:before {
 	content: "\e602";
+	color: yellow;
+	margin-right:.8em;
+	position: relative;
+	top:.1em;
+
 }
 .icon-f-abajo:before {
 	content: "\e603";
+	color:red;
 }
 .icon-f-arriba:before {
 	content: "\e604";
+	color:green;
 }
 /*-----------------------------------------*/
 a
@@ -132,7 +140,7 @@ header #logo img
 nav
 {
 	background:#80BCA3;
-	padding: 0 .5em;
+	padding: 0 5em 0 0;
 	position: relative;
 }
 nav ul
@@ -251,6 +259,11 @@ nav ul li a
 	width:90%;
 	margin-top: 3px;
 	padding:.2em .5em;
+}
+
+#contenido .item .votacion a 
+{
+	text-decoration: none;
 }
 
 #contenido .item .votacion .comentarios_item,

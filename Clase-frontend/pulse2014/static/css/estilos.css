@@ -35,48 +35,48 @@ publicar se ajusto en el position*/
 }
 .icon-lapiz:before {
 	content: "\e601";
-	margin-right:.8em;
+	margin-right: .8em;
 }
 .icon-estrella:before {
 	content: "\e602";
 	color: yellow;
-	margin-right:.8em;
+	margin-right: .8em;
 	position: relative;
-	top:.1em;
+	top: .1em;
 
 }
 .icon-f-abajo:before {
 	content: "\e603";
-	color:red;
+	color: red;
 }
 .icon-f-arriba:before {
 	content: "\e604";
-	color:green;
+	color: green;
 }
 /*-----------------------------------------*/
 a
 {
-	color:#22BCE0;
+	color: #22BCE0;
 }
 
 body
 {
 	background: #EEEEEE;
 	font-family: "Open Sans", "Arial";
-	font-size:16px;
+	font-size: 16px;
 }
 
 footer 
 {
-	color:rgba(255,255,255, .7);
+	color: rgba(255,255,255, .7);
 	background: #22BCE0;
 	text-align: center;
-	padding:1em;
+	padding: 1em;
 }
 
 footer p:first-child
 {
-	margin-bottom:0;
+	margin-bottom: 0;
 }
 
 footer p:last-child
@@ -86,26 +86,26 @@ footer p:last-child
 
 footer p:last-child:after
 {
-	content:" -";
+	content: " -";
 }
 
 footer p:last-child:before
 {
-	content:"- ";
+	content: "- ";
 }
 header
 {
-	background:#343854;
+	background: #343854;
 	color: white;
 	overflow: hidden;
 	padding: .5em;
-	position:relative;
+	position: relative;
 }
 
 header figure
 {
 	float: left;
-	margin:0;
+	margin: 0;
 }
 
 header h1
@@ -119,14 +119,14 @@ header h1
 header #avatar
 {
 	margin: .5em .5em 0 0 ;
-	right:0;
+	right: 0;
 	position:absolute;	
-	top:0;
+	top: 0;
 }
 header #avatar img
 {
-	border-radius:50%;
-	width:55px;
+	border-radius: 50%;
+	width: 55px;
 }
 
 header #logo img
@@ -139,7 +139,7 @@ header #logo img
 
 nav
 {
-	background:#80BCA3;
+	background: #80BCA3;
 	padding: 0 5em 0 0;
 	position: relative;
 }
@@ -147,25 +147,25 @@ nav ul
 {
 	list-style: none;
 	margin: 0;
-	padding:0;
+	padding: 0;
 }
 
 nav ul #publicar_nav
 {
-position:absolute;
-top:-.3em;
-right:0;	
+position: absolute;
+top: -.3em;
+right: 0;	
 }
 
 nav ul #publicar_nav a 
 {
-background:#22BCE0;
+background: #22BCE0;
 border-radius: 5px;
-box-shadow:rgba(0,0,0,.5) 5px 5px 20px;
+box-shadow: rgba(0,0,0,.5) 5px 5px 20px;
 font-style: italic;
-padding:.8em .5em;	
+padding: .8em .5em;	
 text-decoration: none;
-text-shadow:rgba(0,0,0,.5) 2px 2px 5px;
+text-shadow: rgba(0,0,0,.5) 2px 2px 5px;
 /*rgba() es e color y el ultimo valor es la trasparencia
 el primer valor desplazamiento en X 2do valor 
 desplazamiento en Y y 3ro la transparencia*/
@@ -174,35 +174,35 @@ desplazamiento en Y y 3ro la transparencia*/
 nav ul li
 {
 display: inline-block;
-margin:0 1em 0 0;
+margin: 0 1em 0 0;
 }
 
 nav ul li a 
 {
-	color:white;
-	display:block;
-	padding:.5em 0;
+	color: white;
+	display: block;
+	padding: .5em 0;
 }
 
 
 #contenido
 {
-	margin:1em;
+	margin: 1em;
 }
 
 #contenido .item
 {
 	background: white;
-	border-bottom:3px solid #22BCE0;
+	border-bottom: 3px solid #22BCE0;
 	margin-bottom: 3em;
 	min-height: 128px;
 	/*overflow: hidden;*/
-	position:relative;
+	position: relative;
 }
 
 #contenido .item .autor_item
 {
-	color:#AAA;
+	color: #AAA;
 }
 
 #contenido .item .datos_item
@@ -213,27 +213,27 @@ nav ul li a
 
 #contenido .item .datos_item .fecha_item
 {
-	color:#AAA;
+	color: #AAA;
 }
 #contenido .item .datos_item .tag_item
 {
 	background: #F4502A;
 	border-radius: .5em;
-	color:white;
+	color: white;
 	float: left;
-	padding:.2em .5em;
+	padding: .2em .5em;
 	display: inline-block;
 	text-decoration: none;
 }
 #contenido .item .imagen_item
 {
 	float: left;
-	margin:0 1em 0 0;
+	margin: 0 1em 0 0;
 }
 
 #contenido .item .imagen_item img 
 {
-	width:96px;
+	width: 96px;
 }
 
 #contenido .item .titulo_item
@@ -245,20 +245,20 @@ nav ul li a
 
 #contenido .item .titulo_item a 
 {
-	color:#444;
+	color: #444;
 	text-decoration: none;
 }
 
 #contenido .item .votacion
 {
-	background:white;
+	background: white;
 	border-radius: 0 0 .5em .5em;
 	position: absolute;
-	top:100%;
-	left:5%;
-	width:90%;
+	top: 100%;
+	left: 5%;
+	width: 90%;
 	margin-top: 3px;
-	padding:.2em .5em;
+	padding: .2em .5em;
 }
 
 #contenido .item .votacion a 
@@ -271,3 +271,30 @@ nav ul li a
 {
 	float:right;
 }
+
+@media screen and (min-width: 800px){
+
+	#contenido
+	{
+		overflow: hidden;
+	}
+
+	#contenido .item
+	{
+		width:40%;
+		float:left;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

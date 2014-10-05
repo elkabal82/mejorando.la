@@ -276,14 +276,20 @@ nav ul li a
 
 	#contenido
 	{
-		overflow: hidden;
+		/*overflow: hidden;*/
 	}
 
 	#contenido .item
 	{
 		width:40%;
-		float:left;
+		display: inline-block;
 	}
+
+	#contenido .item:nth-child(odd)
+	{
+		margin-right: 2%;
+	}
+
 }
 
 

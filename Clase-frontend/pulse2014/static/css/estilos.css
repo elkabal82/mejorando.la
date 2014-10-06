@@ -129,12 +129,27 @@ header #avatar img
 	width: 55px;
 }
 
+header #logo
+{
+	
+	border-right: 1px solid white;
+	margin-right: .5em;
+}
+
 header #logo img
 {
-	border-right: 1px solid white;
+	-webkit-transition:1s;
+	/*--moz-transform:rotate(90deg);
+	--o-transform:rotate(90deg);
+	--ms-transform:rotate(90deg);*/
 	margin-right: .5em;
 	padding-right: .5em;
 	width: 52px;
+}
+
+header #logo img:hover
+{
+	-webkit-transform:rotate(360deg);
 }
 
 nav
@@ -171,6 +186,12 @@ el primer valor desplazamiento en X 2do valor
 desplazamiento en Y y 3ro la transparencia*/
 } 
 
+nav ul #publicar_nav a:hover:before
+{
+	-webkit-transform:scale(1.2);
+	color:red;
+}
+
 nav ul li
 {
 display: inline-block;
@@ -182,6 +203,17 @@ nav ul li a
 	color: white;
 	display: block;
 	padding: .5em 0;
+	-webkit-transition:.3s;
+}
+
+nav ul li a:hover
+{
+	background: #343854;
+}
+
+aside
+{
+	display: none;
 }
 
 
@@ -277,11 +309,13 @@ nav ul li a
 	#contenido
 	{
 		/*overflow: hidden;*/
+		/*display: inline-block;*/
+		width: 70%
 	}
 
 	#contenido .item
 	{
-		width:40%;
+		width:48%;
 		display: inline-block;
 	}
 
@@ -292,7 +326,21 @@ nav ul li a
 
 }
 
+@media screen and (min-width: 1000px){
 
+	aside
+	{
+		display: block;
+		float:right;
+		margin:1em;
+		width:25%;
+	}
+	
+	video
+	{
+		width: 100%;
+	}
+}
 
 
 

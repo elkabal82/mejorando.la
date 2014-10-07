@@ -155,13 +155,13 @@ header #logo img:hover
 nav
 {
 	background: #80BCA3;
-	padding: 0 5em 0 0;
+	padding: 0 5em 0 .5em;
 	position: relative;
 }
 nav ul
 {
 	list-style: none;
-	margin: 0;
+	margin: 1em;
 	padding: 0;
 }
 
@@ -239,7 +239,7 @@ aside
 
 #contenido .item .datos_item
 {
-	margin: 1em 1em 0 0;
+	margin: 1em 1em 1em 0;
 	text-align: right;
 }
 

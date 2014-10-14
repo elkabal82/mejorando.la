@@ -1,3 +1,22 @@
+.Header
+{
+	/*background: black;*/
+}
+
+.Header-containerTop
+{
+	overflow: hidden;
+}
+
+.Header-numero
+{
+	float:right;
+}
+
+.Header-containerLog
+{
+	background:rgba(255,0,0,1);
+}
 
 figure
 {

@@ -1,0 +1,36 @@
+article
+{
+	border: 1px solid gray;
+	background: black;
+}
+
+p 
+{
+	margin: 0;
+	padding: 0;
+}
+
+ .red
+{
+	background: rgba(255,0,0,.7);
+	width:300px;
+}
+
+.blue
+{
+	background: blue;
+	width:50px;
+
+}
+
+.yellow
+{
+	background: yellow;
+	width:50px;
+	
+}
+
+.red .blue .yellow
+{
+display: inline;	
+}

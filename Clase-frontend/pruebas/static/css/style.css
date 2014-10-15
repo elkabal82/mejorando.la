@@ -1,3 +1,8 @@
+figure
+{
+	margin: 0;
+}
+
 .Header
 {
 	background: rgb(20,20,30);
@@ -41,7 +46,7 @@
 
 .Header-containerLog
 {
-	background:rgba(200,0,0,.8);
+	background:rgba(200,0,0,.9);
 	text-align: center;
 }
 
@@ -51,9 +56,29 @@
 	width: 500px;
 }
 
-
-
-figure
+.MainMenu
 {
-	margin: 0;
+
 }
+
+.MainMenu-list
+{
+	text-align: center;
+}
+
+.MainMenu-item
+{
+	border-right: 1px solid black;
+	
+	padding: 0 1em 1em 1em;
+	display: inline-block;
+}	
+
+.MainMenu-link
+{
+	text-decoration: none;
+	
+}
+
+
+

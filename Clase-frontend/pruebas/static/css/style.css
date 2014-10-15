@@ -41,9 +41,17 @@
 
 .Header-containerLog
 {
-	background:rgba(255,0,0,.9);
-
+	background:rgba(200,0,0,.8);
+	text-align: center;
 }
+
+.Header-log
+{
+	margin:3em 0 3em 0;
+	width: 500px;
+}
+
+
 
 figure
 {

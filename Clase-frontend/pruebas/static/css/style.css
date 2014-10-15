@@ -1,21 +1,48 @@
 .Header
 {
-	/*background: black;*/
+	background: rgb(20,20,30);
 }
 
 .Header-containerTop
 {
-	overflow: hidden;
+
 }
+
+.Header-a 
+{
+	margin-left: 2%;
+	display: inline-block;
+	width:48%;
+}
+
+.Header-a a
+{
+	font-size: .8em;
+	margin: .5em;
+	color:white;
+	text-decoration: none;
+}
+
 
 .Header-numero
 {
-	float:right;
+	color:white;
+	display: inline-block;
+	text-align: right;
+	margin: 5px;
+	width:48%;
 }
+
+.Header-numero-color
+{
+	color:yellow;
+}
+
 
 .Header-containerLog
 {
-	background:rgba(255,0,0,1);
+	background:rgba(255,0,0,.9);
+
 }
 
 figure

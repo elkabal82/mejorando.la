@@ -6,6 +6,8 @@ figure
 .Header
 {
 	background: rgb(20,20,30);
+	font-size: .9em;
+	font-style: italic;
 }
 
 .Header-containerTop
@@ -60,6 +62,7 @@ figure
 {
 	background: rgba(195,0,0,.9);
 	text-align: center;
+	font-size: 1rem;
 }
 
 .MainMenu-list
@@ -67,13 +70,10 @@ figure
 	box-shadow: rgba(0,0,0,.3) 0px -10px 20px;
 	border-top-left-radius: 18px;
 	border-top-right-radius: 18px; 
-	border-top:1px solid black;
+	/*border-top:1px solid black;*/
 	margin: 0 5em 0 2em;
 	padding: 1em 0;
 	background: rgb(180,0,0);
-
-
-
 }
 
 .MainMenu-item
@@ -84,10 +84,65 @@ figure
 	/*background: rgba(195,0,0,.9);*/
 }	
 
-.ads:hover
+.inicio:hover
 {
-	text-shadow: rgba(0,0,0,1) 2px 2px 10px;
-	
+	text-decoration: underline;
+	text-shadow: rgba(0,0,0,1) 5px -4px 10px;
+
+}
+
+.conocenos:hover
+{
+	text-decoration: underline;
+	text-shadow: rgba(0,0,0,1) 5px -4px 10px;
+}
+
+.servicios:hover
+{
+	text-decoration: underline;
+	text-shadow: rgba(0,0,0,1) 5px -4px 10px;
+}
+
+.cobertura:hover
+{
+	text-decoration: underline;
+	text-shadow: rgba(0,0,0,1) 5px -4px 10px;
+}
+
+.rastreo:hover
+{
+	text-decoration: underline;
+	text-shadow: rgba(0,0,0,1) 5px -4px 10px;
+}
+
+.cotizador:hover
+{
+	text-decoration: underline;
+	text-shadow: rgba(0,0,0,1) 5px -4px 10px;
+}
+
+.facturacion:hover
+{
+	text-decoration: underline;
+	text-shadow: rgba(0,0,0,1) 5px -4px 10px;
+}
+
+.extranet:hover
+{
+	text-decoration: underline;
+	text-shadow: rgba(0,0,0,1) 5px -4px 10px;
+}
+
+.aviso:hover
+{
+	text-decoration: underline;
+	text-shadow: rgba(0,0,0,1) 5px -4px 10px;
+}
+
+.contacto:hover
+{
+	text-decoration: underline;
+	text-shadow: rgba(0,0,0,1) 5px -4px 10px;
 }
 
 .MainMenu-link

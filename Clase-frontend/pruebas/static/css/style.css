@@ -149,7 +149,7 @@ figure
 {
 	/*border:1px solid green;*/
 	border-right: 1px solid black;
-	color: rgb(240,240,230);
+	color: rgb(210,180,180);
 	padding:.5em 1em 1em .5em;
 	text-decoration: none;
 
@@ -164,12 +164,69 @@ figure
 
 .Mid
 {
-	border:5px solid black;
+	
 }
 
-.Mid-containerImage2
+.Aside 
 {
-	width: 10px;
+	text-align: center;
+}
+.Aside-container 
+{
+	display: inline-block;
 }
 
+.Aside-container:hover
+{
+	box-shadow: rgba(0,0,0, .3) -5px -10px 15px;
+}
 
+.Aside-container2
+{
+	display: inline-block;
+}
+
+.Aside-image2
+{
+	width: 120px;
+}
+.Aside-image2:hover
+{
+	width:125px;
+}
+
+.Bot 
+{
+	border-radius: 10px;
+	background: #EEE;
+	font-size: .8em;
+	margin: 1em auto;
+	text-align: center;
+	width: 80%;
+}
+
+.Bot-article1
+{
+	display: inline-block;
+	margin: .5em;
+	text-align: justify;
+	width: 30%;
+}
+
+.Bot-article2
+{
+	display: inline-block;
+	margin: .5em;
+	text-align: justify;
+	vertical-align: top;
+	width: 30%;
+}
+
+.Bot-article3
+{
+	display: inline-block;
+	margin: .5em;
+	vertical-align: top;
+	text-align: justify;
+	width: 30%;
+}

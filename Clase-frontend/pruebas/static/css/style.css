@@ -198,13 +198,17 @@ figure
 
 .Bot 
 {
+	line-height: 1.8em;
 	box-shadow: rgba(0,0,0,.3) 0 -2px 10px;
 	border-radius: 10px;
 	background: #EEE;
 	font-size: .9em;
 	margin: 1em auto 0;
+	position:relative;
 	text-align: center;
 	width: 80%;
+	overflow: hidden;
+	padding-bottom: 2em;
 }
 
 .Bot-article1
@@ -214,6 +218,20 @@ figure
 	text-align: justify;
 	width: 30%;
 }
+
+.Bot-call
+{
+	
+	text-align: right;
+	bottom:0;
+	left: 0;
+	background: #E22222;
+	line-height:.2em;
+	float: left;
+	position: absolute;
+}
+
+
 
 .Bot-article2
 {
@@ -235,8 +253,10 @@ figure
 
 .Bot-line
 {
+
 	display: inline-block;
-	height: 115px;
+	height: 180px;
+	vertical-align: bottom;
 	border:1px solid #CCC;
 } 
 

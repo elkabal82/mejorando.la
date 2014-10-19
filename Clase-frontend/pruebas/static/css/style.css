@@ -1,3 +1,38 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../icon/icomoon.eot?7amdhr');
+	src:url('../icon/icomoon.eot?#iefix7amdhr') format('embedded-opentype'),
+		url('../icon/icomoon.woff?7amdhr') format('woff'),
+		url('../icon/icomoon.ttf?7amdhr') format('truetype'),
+		url('../icon/icomoon.svg?7amdhr#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+	content: "\e600";
+	color: white;
+	float:left;	
+	display: line;
+	font-size: 26px;
+	padding: .5em;
+}
+
+
 figure
 {
 	margin: 0;
@@ -221,14 +256,18 @@ figure
 
 .Bot-call
 {
-	
+	border-radius: 8px;
+	color: white;
+	box-shadow: rgba(0,0,0,.6) 0 -5px 10px;
 	text-align: right;
 	bottom:0;
 	left: 0;
-	background: #E22222;
+	background: #B22222;
 	line-height:.2em;
-	float: left;
 	position: absolute;
+	padding: .5em .5em .5em 0;
+	width: 220px;
+
 }
 
 

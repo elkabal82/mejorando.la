@@ -1,3 +1,8 @@
+body
+{
+	margin:0;
+}
+
 article
 {
 	border: 1px solid gray;
@@ -33,4 +38,36 @@ p
 .red .blue .yellow
 {
 display: inline;	
+}
+
+/*DISPLAY*/
+.Header-a
+{
+	display: inline-block;
+}
+
+.Header-a a
+{
+	color: white;
+	display: inline-block;
+	margin: .5em;
+			
+}
+
+.Header-containerTop
+{	
+	background: #002222;
+	color: white;
+	font-size: .8rem;
+	overflow: hidden;
+}
+
+.Header-p 
+{
+	float: right;
+	margin: .5em .5em .5em 0; 
+}
+.Header-numero-color
+{
+	color:yellow;
 }

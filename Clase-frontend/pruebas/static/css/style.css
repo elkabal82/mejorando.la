@@ -110,7 +110,7 @@ figure
 {
 	display: inline-block;	
 	height: 1.5em;
-	padding: .5em 0 .5em 1em;
+	padding: .5em 0 .5em .2em;
 	/*background: rgba(195,0,0,.9);*/
 }	
 
@@ -180,7 +180,7 @@ figure
 	/*border:1px solid green;*/
 	border-right: 1px solid black;
 	color: rgb(210,180,180);
-	padding:.5em 1em 1em .5em;
+	padding:.5em .2em;
 	text-decoration: none;
 
 }

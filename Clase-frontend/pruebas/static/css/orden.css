@@ -59,6 +59,7 @@ display: inline;
 	background: #002222;
 	color: white;
 	font-size: .8rem;
+	margin: 3em;
 	overflow: hidden;
 }
 
@@ -70,4 +71,43 @@ display: inline;
 .Header-numero-color
 {
 	color:yellow;
+}
+/* 			NAV */
+
+.MainMenu
+{
+	border:red 1px solid;
+	text-align: center;
+	padding-top:1.5em;
+}
+
+.MainMenu-list
+{
+
+	border:black 1px solid;	
+	display: inline-block;
+	margin: 0;
+	
+}
+
+.MainMenu-item
+{
+	border:green 1px solid;
+	display:inline-block;
+}
+
+.MainMenu-link
+{
+	border:blue .5px solid;
+	padding:1em;
+	text-decoration: none;
+
+
+}
+
+.MainMenu-separate
+{
+	display: inline-block;
+	border: black 1px solid;
+	height: 10px;
 }

@@ -76,30 +76,36 @@ display: inline;
 
 .MainMenu
 {
-	border:red 1px solid;
+	background:rgba(180,0,0,.9);
 	text-align: center;
 	padding-top:1.5em;
 }
 
 .MainMenu-list
 {
-
-	border:black 1px solid;	
+	background: rgba(180,0,0,.9);
+	border-radius:18px 18px 0 0;
+	box-shadow: rgba(0,0,0,.3) 0px -10px 20px;
 	display: inline-block;
+	font-size: 0;
 	margin: 0;
+	padding:0 1rem;
 	
 }
 
 .MainMenu-item
 {
-	border:green 1px solid;
-	display:inline-block;
+	display: inline-block;
+	
 }
 
 .MainMenu-link
 {
-	border:blue .5px solid;
-	padding:1em;
+
+	color: rgb(210,180,180);
+	display: block;
+	font-size: 1.3rem;
+	padding: 1em 1em;
 	text-decoration: none;
 
 
@@ -108,6 +114,8 @@ display: inline;
 .MainMenu-separate
 {
 	display: inline-block;
-	border: black 1px solid;
-	height: 10px;
+	border: #BBB 1px solid;
+	height: 40px;
+	vertical-align:bottom; 
+	margin: .5rem 0 .5rem 0;
 }

@@ -97,6 +97,7 @@ figure
 	width: 500px;
 }
 
+/*
 .MainMenu
 {
 	background: rgba(195,0,0,.9);
@@ -109,7 +110,6 @@ figure
 	box-shadow: rgba(0,0,0,.3) 0px -10px 20px;
 	border-top-left-radius: 18px;
 	border-top-right-radius: 18px; 
-	/*border-top:1px solid black;*/
 	margin: 0 auto;
 	padding: 1em 0;
 	background: rgb(180,0,0);
@@ -121,73 +121,98 @@ figure
 	display: inline-block;	
 	height: 1.5em;
 	padding: .5em 0 .5em .2em;
-	/*background: rgba(195,0,0,.9);*/
 }	
+*/
+
+.MainMenu
+{
+	position: relative;
+	background:rgba(200,0,0,.9);
+	text-align: center;
+}
+
+.MainMenu-list
+{
+	background: rgba(180,0,0,.9);
+	border-radius:18px 18px 0 0;
+	box-shadow: rgba(0,0,0,.3) 0px -10px 20px;
+	display: inline-block;
+	font-size: 0;
+	margin: 0;
+	padding:0;
+	
+}
+
+.MainMenu-item
+{
+	display: inline-block;
+	
+}
+
+.MainMenu-item:first-child
+{
+	border-radius: 18px 0 0 0;
+}
+
+.MainMenu-item:last-child
+{
+	border-radius: 0 18px 0 0;
+}
+
 
 .inicio:hover
 {
-	text-decoration: underline;
-	text-shadow: rgba(0,0,0,1) 5px -4px 10px;
-
+	background: #800000;
 }
 
 .conocenos:hover
 {
-	text-decoration: underline;
-	text-shadow: rgba(0,0,0,1) 5px -4px 10px;
+	background: #800000;
 }
 
 .servicios:hover
 {
-	text-decoration: underline;
-	text-shadow: rgba(0,0,0,1) 5px -4px 10px;
+	background: #800000;
 }
 
 .cobertura:hover
 {
-	text-decoration: underline;
-	text-shadow: rgba(0,0,0,1) 5px -4px 10px;
+	background: #800000;
 }
 
 .rastreo:hover
 {
-	text-decoration: underline;
-	text-shadow: rgba(0,0,0,1) 5px -4px 10px;
+	background: #800000;
 }
 
 .cotizador:hover
 {
-	text-decoration: underline;
-	text-shadow: rgba(0,0,0,1) 5px -4px 10px;
+	background: #800000;
 }
 
 .facturacion:hover
 {
-	text-decoration: underline;
-	text-shadow: rgba(0,0,0,1) 5px -4px 10px;
+	background: #800000;
 }
 
 .extranet:hover
 {
-	text-decoration: underline;
-	text-shadow: rgba(0,0,0,1) 5px -4px 10px;
+	background: #800000;
 }
 
 .aviso:hover
 {
-	text-decoration: underline;
-	text-shadow: rgba(0,0,0,1) 5px -4px 10px;
+	background: #800000;	
 }
 
 .contacto:hover
 {
-	text-decoration: underline;
-	text-shadow: rgba(0,0,0,1) 5px -4px 10px;
+	background: #800000;
 }
 
+/*
 .MainMenu-link
 {
-	/*border:1px solid green;*/
 	border-right: 1px solid black;
 	color: rgb(210,180,180);
 	padding:.5em .2em;
@@ -197,11 +222,38 @@ figure
 
 .MainMenu-link-last
 {
-	/*margin:0;*/
 	border: 0 solid black;
-	/*padding-right: 1.5em;*/
+}
+*/
+
+.MainMenu-link
+{
+
+	color: #C0C0C0;
+	display: block;
+	font-size: 1.1rem;
+	padding: 1em 1em;
+	text-decoration: none;
+
+
+}
+.MainMenu-punto
+{
+	display: inline-block;
+	border:rgba(180,0,0,.9) 7px solid;
+	border-radius: 50%;
+	position: absolute;
+	top: 48px;
 }
 
+.MainMenu-separate
+{
+	display: inline-block;
+	border: #888  1px solid;
+	height: 35px;
+	vertical-align:bottom; 
+	margin: .5rem 0 .5rem 0;
+}
 .Mid
 {
 	
@@ -271,7 +323,6 @@ figure
 	position: absolute;
 	padding: .5em .5em .5em 0;
 	width: 220px;
-
 }
 
 

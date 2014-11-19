@@ -140,7 +140,6 @@ figure
 	font-size: 0;
 	margin: 0;
 	padding:0;
-	
 }
 
 .MainMenu-item
@@ -234,6 +233,7 @@ figure
 	font-size: 1.1rem;
 	padding: 1em 1em;
 	text-decoration: none;
+	
 
 
 }
@@ -243,13 +243,15 @@ figure
 	border:rgba(180,0,0,.9) 7px solid;
 	border-radius: 50%;
 	position: absolute;
-	top: 48px;
+	top: 45px;
+	z-index: 0;
 }
 
 .MainMenu-separate
 {
 	display: inline-block;
 	border: #888  1px solid;
+	border-right: black 1px solid;
 	height: 35px;
 	vertical-align:bottom; 
 	margin: .5rem 0 .5rem 0;
